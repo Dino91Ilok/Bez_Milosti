@@ -1,0 +1,153 @@
+body {
+    background-image: url(Screenshot_1.png);
+    background-size: cover;
+    
+    
+}
+
+
+.announ {
+display: flex;
+align-items: center;
+flex-direction: column;
+color: aliceblue;
+}
+.band-name {
+    font-family: 'Iron Maiden', sans-serif;
+    font-size: 150px;
+    
+
+                                                
+}
+
+.desc-en {
+    font-family: 'Iron Maiden', sans-serif;
+    font-size: 50px;
+}
+
+.desc-hr {
+    font-family: 'Iron Maiden', sans-serif;
+    font-size: 50px;
+}
+
+
+
+@media (max-width: 1067px) {
+
+    body {
+        background-image: url(Screenshot_1.png);
+        background-size: cover;
+        
+        
+    }
+    .band-name {
+        font-size: 100px;
+    }
+
+    .desc-en, .desc-hr {
+        font-size: 50px;
+    }
+} 
+
+@media (max-width: 843px) {
+
+        body {
+            background-image: url(Screenshot_1.png);
+            background-size: 842px 620px;
+            
+            
+        }
+        .band-name {
+            font-size: 80px;
+        }
+    
+        .desc-en, .desc-hr {
+            font-size: 40px;
+        }
+    
+
+}
+
+
+@media (max-width: 691px) {
+
+    body {
+        background-image: url(Screenshot_1.png);
+        background-size: 690px 620px;
+        
+        
+    }
+    .band-name {
+        font-size: 60px;
+    }
+
+    .desc-en, .desc-hr {
+        font-size: 24px;
+    }
+
+    .announ{
+        position: absolute;
+        width: 404px;
+        top: 35%;
+        left: 45%;
+        margin: -100px 0 0 -168px;
+        align-items: center;}
+    }  
+    
+
+@media (max-width: 479px) {
+
+    body {
+        background-image: url(Screenshot_1.png);
+        background-size: 479px 620px;
+        
+        
+    }
+    .band-name {
+        font-size: 45px;
+    }
+
+    .desc-en, .desc-hr {
+        font-size: 20px;
+    }
+
+    .announ{
+        position: absolute;
+        width: 404px;
+        top: 35%;
+        left: 45%;
+        margin: -100px 0 0 -168px;
+        align-items: center;
+       
+}
+}
+
+@media (max-width: 376px) {
+
+    body {
+        background-image: url(Screenshot_1.png);
+        background-size: 376px 620px;
+        
+        
+    }
+    .band-name {
+        font-size: 45px;
+    }
+
+    .desc-en, .desc-hr {
+        font-size: 20px;
+    }
+
+    .announ{
+        position: absolute;
+        width: 404px;
+        top: 35%;
+        left: 40%;
+        margin: -100px 0 0 -168px;
+        align-items: center;
+       
+}
+
+}
+
+
